@@ -1,3 +1,4 @@
+// This is the full data model for a creator's store
 export const INITIAL_DATA = {
   meta: {
     siteName: "",
@@ -7,7 +8,7 @@ export const INITIAL_DATA = {
   },
   creator: {
     bio: "",
-    location: "",
+    location: ""
   },
   product: {
     title: "",
@@ -17,15 +18,15 @@ export const INITIAL_DATA = {
   },
   contact: {
     email: "",
-    phone: "",
+    phone: ""
   },
   socials: {
     twitter: "",
     instagram: "",
-    linkedin: "",
+    linkedin: ""
   },
   seo: {
     title: "",
-    description: "",
+    description: ""
   }
 };
